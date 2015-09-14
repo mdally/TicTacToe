@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		681FECED1A9B047B007ED719 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 681FECEC1A9B047B007ED719 /* main.m */; };
+		681FECF01A9B047B007ED719 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 681FECEF1A9B047B007ED719 /* AppDelegate.m */; };
+		681FECF31A9B047B007ED719 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 681FECF21A9B047B007ED719 /* ViewController.m */; };
+		681FECF61A9B047B007ED719 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681FECF41A9B047B007ED719 /* Main.storyboard */; };
+		681FECF81A9B047B007ED719 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 681FECF71A9B047B007ED719 /* Images.xcassets */; };
+		681FECFB1A9B047B007ED719 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 681FECF91A9B047B007ED719 /* LaunchScreen.xib */; };
+		681FED071A9B047B007ED719 /* Dally_lab3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 681FED061A9B047B007ED719 /* Dally_lab3Tests.m */; };
+		681FED121A9B0504007ED719 /* BoardSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 681FED111A9B0504007ED719 /* BoardSquare.m */; };
+		681FED151A9B064B007ED719 /* cream.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 681FED131A9B064B007ED719 /* cream.jpg */; };
+		681FED181A9B07CC007ED719 /* checkers.gif in Resources */ = {isa = PBXBuildFile; fileRef = 681FED171A9B07CC007ED719 /* checkers.gif */; };
+		686A43EB1A9BE7E800A7BCC4 /* From Cartoon Blocks.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 686A43EA1A9BE7E800A7BCC4 /* From Cartoon Blocks.ttf */; };
+		686A43F11A9BED4300A7BCC4 /* HashMarks.m in Sources */ = {isa = PBXBuildFile; fileRef = 686A43F01A9BED4300A7BCC4 /* HashMarks.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		681FED011A9B047B007ED719 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681FECDF1A9B047A007ED719 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 681FECE61A9B047B007ED719;
+			remoteInfo = Dally_lab3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		681FECE71A9B047B007ED719 /* Dally_lab3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dally_lab3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		681FECEB1A9B047B007ED719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		681FECEC1A9B047B007ED719 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		681FECEE1A9B047B007ED719 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		681FECEF1A9B047B007ED719 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		681FECF11A9B047B007ED719 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		681FECF21A9B047B007ED719 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		681FECF51A9B047B007ED719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		681FECF71A9B047B007ED719 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		681FECFA1A9B047B007ED719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		681FED001A9B047B007ED719 /* Dally_lab3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dally_lab3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		681FED051A9B047B007ED719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		681FED061A9B047B007ED719 /* Dally_lab3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dally_lab3Tests.m; sourceTree = "<group>"; };
+		681FED101A9B0504007ED719 /* BoardSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardSquare.h; sourceTree = "<group>"; };
+		681FED111A9B0504007ED719 /* BoardSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardSquare.m; sourceTree = "<group>"; };
+		681FED131A9B064B007ED719 /* cream.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cream.jpg; sourceTree = "<group>"; };
+		681FED171A9B07CC007ED719 /* checkers.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = checkers.gif; sourceTree = "<group>"; };
+		686A43EA1A9BE7E800A7BCC4 /* From Cartoon Blocks.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "From Cartoon Blocks.ttf"; sourceTree = "<group>"; };
+		686A43EF1A9BED4300A7BCC4 /* HashMarks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashMarks.h; sourceTree = "<group>"; };
+		686A43F01A9BED4300A7BCC4 /* HashMarks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HashMarks.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		681FECE41A9B047B007ED719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681FECFD1A9B047B007ED719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		681FECDE1A9B047A007ED719 = {
+			isa = PBXGroup;
+			children = (
+				681FECE91A9B047B007ED719 /* Dally_lab3 */,
+				681FED031A9B047B007ED719 /* Dally_lab3Tests */,
+				681FECE81A9B047B007ED719 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		681FECE81A9B047B007ED719 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				681FECE71A9B047B007ED719 /* Dally_lab3.app */,
+				681FED001A9B047B007ED719 /* Dally_lab3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		681FECE91A9B047B007ED719 /* Dally_lab3 */ = {
+			isa = PBXGroup;
+			children = (
+				686A43E71A9BE7B400A7BCC4 /* Resources */,
+				681FECEE1A9B047B007ED719 /* AppDelegate.h */,
+				681FECEF1A9B047B007ED719 /* AppDelegate.m */,
+				681FED101A9B0504007ED719 /* BoardSquare.h */,
+				681FED111A9B0504007ED719 /* BoardSquare.m */,
+				686A43EF1A9BED4300A7BCC4 /* HashMarks.h */,
+				686A43F01A9BED4300A7BCC4 /* HashMarks.m */,
+				681FECF11A9B047B007ED719 /* ViewController.h */,
+				681FECF21A9B047B007ED719 /* ViewController.m */,
+				681FECF41A9B047B007ED719 /* Main.storyboard */,
+				681FECF71A9B047B007ED719 /* Images.xcassets */,
+				681FECF91A9B047B007ED719 /* LaunchScreen.xib */,
+				681FECEA1A9B047B007ED719 /* Supporting Files */,
+			);
+			path = Dally_lab3;
+			sourceTree = "<group>";
+		};
+		681FECEA1A9B047B007ED719 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				681FECEB1A9B047B007ED719 /* Info.plist */,
+				681FECEC1A9B047B007ED719 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		681FED031A9B047B007ED719 /* Dally_lab3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				681FED061A9B047B007ED719 /* Dally_lab3Tests.m */,
+				681FED041A9B047B007ED719 /* Supporting Files */,
+			);
+			path = Dally_lab3Tests;
+			sourceTree = "<group>";
+		};
+		681FED041A9B047B007ED719 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				681FED051A9B047B007ED719 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		686A43E71A9BE7B400A7BCC4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				686A43EA1A9BE7E800A7BCC4 /* From Cartoon Blocks.ttf */,
+				681FED171A9B07CC007ED719 /* checkers.gif */,
+				681FED131A9B064B007ED719 /* cream.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		681FECE61A9B047B007ED719 /* Dally_lab3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 681FED0A1A9B047B007ED719 /* Build configuration list for PBXNativeTarget "Dally_lab3" */;
+			buildPhases = (
+				681FECE31A9B047B007ED719 /* Sources */,
+				681FECE41A9B047B007ED719 /* Frameworks */,
+				681FECE51A9B047B007ED719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dally_lab3;
+			productName = Dally_lab3;
+			productReference = 681FECE71A9B047B007ED719 /* Dally_lab3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		681FECFF1A9B047B007ED719 /* Dally_lab3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 681FED0D1A9B047B007ED719 /* Build configuration list for PBXNativeTarget "Dally_lab3Tests" */;
+			buildPhases = (
+				681FECFC1A9B047B007ED719 /* Sources */,
+				681FECFD1A9B047B007ED719 /* Frameworks */,
+				681FECFE1A9B047B007ED719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				681FED021A9B047B007ED719 /* PBXTargetDependency */,
+			);
+			name = Dally_lab3Tests;
+			productName = Dally_lab3Tests;
+			productReference = 681FED001A9B047B007ED719 /* Dally_lab3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		681FECDF1A9B047A007ED719 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = wustl;
+				TargetAttributes = {
+					681FECE61A9B047B007ED719 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					681FECFF1A9B047B007ED719 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 681FECE61A9B047B007ED719;
+					};
+				};
+			};
+			buildConfigurationList = 681FECE21A9B047A007ED719 /* Build configuration list for PBXProject "Dally_lab3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 681FECDE1A9B047A007ED719;
+			productRefGroup = 681FECE81A9B047B007ED719 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				681FECE61A9B047B007ED719 /* Dally_lab3 */,
+				681FECFF1A9B047B007ED719 /* Dally_lab3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		681FECE51A9B047B007ED719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681FED181A9B07CC007ED719 /* checkers.gif in Resources */,
+				681FED151A9B064B007ED719 /* cream.jpg in Resources */,
+				681FECF61A9B047B007ED719 /* Main.storyboard in Resources */,
+				681FECFB1A9B047B007ED719 /* LaunchScreen.xib in Resources */,
+				681FECF81A9B047B007ED719 /* Images.xcassets in Resources */,
+				686A43EB1A9BE7E800A7BCC4 /* From Cartoon Blocks.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681FECFE1A9B047B007ED719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		681FECE31A9B047B007ED719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681FECF31A9B047B007ED719 /* ViewController.m in Sources */,
+				686A43F11A9BED4300A7BCC4 /* HashMarks.m in Sources */,
+				681FED121A9B0504007ED719 /* BoardSquare.m in Sources */,
+				681FECF01A9B047B007ED719 /* AppDelegate.m in Sources */,
+				681FECED1A9B047B007ED719 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681FECFC1A9B047B007ED719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681FED071A9B047B007ED719 /* Dally_lab3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		681FED021A9B047B007ED719 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 681FECE61A9B047B007ED719 /* Dally_lab3 */;
+			targetProxy = 681FED011A9B047B007ED719 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		681FECF41A9B047B007ED719 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				681FECF51A9B047B007ED719 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		681FECF91A9B047B007ED719 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				681FECFA1A9B047B007ED719 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		681FED081A9B047B007ED719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		681FED091A9B047B007ED719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		681FED0B1A9B047B007ED719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dally_lab3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		681FED0C1A9B047B007ED719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dally_lab3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		681FED0E1A9B047B007ED719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Dally_lab3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dally_lab3.app/Dally_lab3";
+			};
+			name = Debug;
+		};
+		681FED0F1A9B047B007ED719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Dally_lab3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dally_lab3.app/Dally_lab3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		681FECE21A9B047A007ED719 /* Build configuration list for PBXProject "Dally_lab3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681FED081A9B047B007ED719 /* Debug */,
+				681FED091A9B047B007ED719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		681FED0A1A9B047B007ED719 /* Build configuration list for PBXNativeTarget "Dally_lab3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681FED0B1A9B047B007ED719 /* Debug */,
+				681FED0C1A9B047B007ED719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		681FED0D1A9B047B007ED719 /* Build configuration list for PBXNativeTarget "Dally_lab3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681FED0E1A9B047B007ED719 /* Debug */,
+				681FED0F1A9B047B007ED719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 681FECDF1A9B047A007ED719 /* Project object */;
+}
